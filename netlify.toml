@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"        # <-- this is your frontend folder
+  publish = "frontend/dist" # <-- the built static files
+  command = "npm run build" # <-- or "yarn build"
+
+# [functions]  # Uncomment if you use Netlify functions
+#   directory = "frontend/netlify/functions"
