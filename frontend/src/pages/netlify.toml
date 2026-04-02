@@ -1,0 +1,7 @@
+POS-DEPLOY/
+│
+├── .git/
+├── frontend/
+├── backend/       (if you have backend)
+├── package.json   (if root has one)
+└── netlify.toml   ← create it here
